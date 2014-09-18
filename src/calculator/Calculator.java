@@ -7,6 +7,9 @@ public class Calculator {
 
     private float result;
 //    флаг, отвечающий за наличие результата предыдущего вычисления
+    
+    // Little changes!!
+    
     private boolean setResult = false;
     private final char[] operations = {'+', '-', '*', '/'};
     private final String version = "v1.1";
