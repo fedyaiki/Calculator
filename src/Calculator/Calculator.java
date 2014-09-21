@@ -11,7 +11,7 @@ public class Calculator {
 //    флаг, отвечающий за наличие результата предыдущего вычисления
     private boolean setResult = false;
 
-//    метод, считывающий float
+//    метод, считывающий double
     public double readNumber(Scanner sc, String number) {
         double op = 0;
         char ch;
@@ -102,8 +102,6 @@ public class Calculator {
     public static void main(String[] args) {
         Calculator c = new Calculator();
         c.calculateIt();
-//        ConfigReader cr = new ConfigReader();
-//        cr.readConfid();
     }
 
 }
