@@ -1,0 +1,4 @@
++ Operations.Add
+- Operations.Subtract
+* Operations.Multiply
+/ Operations.Divide
